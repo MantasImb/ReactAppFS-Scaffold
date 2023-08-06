@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "types": ["node"],
+    "esModuleInterop": true
+  },
+  "include": ["prisma", "routers", "utils", "index.ts", "trpc.ts"],
+  "exclude": ["node_modules"]
+}
